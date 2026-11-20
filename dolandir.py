@@ -333,7 +333,7 @@ if menu == "🏠 Ana Sayfa (Piyasa Vitrini)":
         kapanis_df = kapak_verilerini_getir()
 
         try:
-            borsa = ccxt.binance({'enableRateLimit': True})
+            borsa = ccxt.binanceus({'enableRateLimit': True})
             btc_ticker = borsa.fetch_ticker("BTC/USDT")
             btc_fiyat = float(btc_ticker["last"])
             btc_degisim = float(btc_ticker["change"])
@@ -377,7 +377,7 @@ if menu == "🏠 Ana Sayfa (Piyasa Vitrini)":
 
 elif menu == "🔥 Kripto Borsası (Binance Canlı)":
     st.title("🔥 Canlı Binance Kripto Terminali")
-    borsa = ccxt.binance({'enableRateLimit': True})
+    borsa = ccxt.binanceus({'enableRateLimit': True})
     populer_coinler = ["BTC/USDT", "ETH/USDT", "SOL/USDT", "BNB/USDT", "XRP/USDT", "AVAX/USDT", "DOGE/USDT"]
     
     secilen_cift = st.sidebar.selectbox("Kripto Çifti Seçin:", populer_coinler)
