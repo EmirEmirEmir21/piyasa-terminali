@@ -1,0 +1,23 @@
+Emir Salih Ertan - 240106106032 - EEM 327
+Piyasa Vitrin & Takip Terminali - Çalıştırma Talimatları
+
+Kurulum:
+
+Bu klasörün içinde bir terminal (CMD veya Anaconda Prompt) açın.
+
+Kütüphaneleri kurmak için şu komutu çalıştırın:
+pip install -r kutuphane.txt
+
+Çalıştırma:
+
+Kurulum bittikten sonra terminale şu komutu yazın:
+streamlit run dolandir.py
+
+Uygulama tarayıcınızda otomatik açılacaktır.
+
+Sisteme Giriş & Test Hesabı:
+E-posta alarm sistemini ve arayüzü test edebilmeniz için aktif kullandığınız bir maile adresi ile kayıt olup giriş yapın
+Alarm sisteminin çalışımını test amacı ile seçtiğiniz bir birimin çok altına veya çok üstüne değer seçip alarmı aktifleştirin
+Sonrasında hemen üstündeki yenile butonunda yenileyin kısa süre içerisinde piyasa.emir@gmail.com adresinden kurduğunuz alarm ile ilgili
+mail e posta adresinize gelecektir.
+(Mailiniz de olası bir durumda Spam klasörünü kontrol etmeyi unutmayınız)
